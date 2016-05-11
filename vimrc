@@ -10,7 +10,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 "" Vim config
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'chriskempson/base16-vim'
 Plugin 'endwise.vim'
 Plugin 'gmarik/Vundle.vim'
