@@ -2,8 +2,11 @@
 
 To install this .vimrc file, do the following steps:
 
+```
 $ cd ~ -> to be in your home folder
 $ git clone git@github.com/motorox/dotvim.git .vim
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
 
 Vim 7.4 does not need a specific .vimrc in ~/ . It searches for .vim/vimrc too.
 
