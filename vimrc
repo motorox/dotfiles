@@ -74,13 +74,13 @@ set backspace=indent,eol,start
 set laststatus=2
 
 " Brace face
-set showmatch
-set matchtime=3
+set showmatch    "show matchingbrackets
+set matchtime=2
 
 " redraw only when we need to
 set lazyredraw
 
-" Split down and right
+" Split down and right to the current windows
 set splitbelow
 set splitright
 
@@ -127,6 +127,11 @@ set number
 " Highlight cursor line
 set cursorline
 
+set showcmd     " Show what i'm typing
+" set noswapfile  " no swap
+" set nobackup    " no backup files
+set autowrite   " Automatically save before :next, :make, etc.
+
 " }}}
 
 " History/Undo settings {{{
@@ -147,6 +152,7 @@ syntax enable
 set background=dark
 colorscheme base16-default
 " colorscheme badwolf
+" colorscheme molokai
 
 " }}}
 
