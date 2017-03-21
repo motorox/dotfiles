@@ -152,7 +152,7 @@ syntax enable
 set background=dark
 " colorscheme base16-default
 " colorscheme badwolf
-colorscheme base16-monokai
+colorscheme molokai
 
 " }}}
 

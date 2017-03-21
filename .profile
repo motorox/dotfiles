@@ -24,7 +24,7 @@ fi
 PATH="$HOME/twogo/phantomjs-2.1.1-linux-x86_64/bin/:$PATH"
 
 export GOROOT=$HOME/go
-export GOPATH=$HOME/go_workplace
+export GOPATH=$HOME/go_workspace
 export PATH=$GOROOT/bin:$PATH
 
 export SWIFTENV_ROOT="$HOME/.swiftenv"
@@ -33,13 +33,13 @@ export PATH="$SWIFTENV_ROOT/bin:$PATH"
 eval "$(swiftenv init -)"
 
 # Set Proxy
-function setproxy() {
-    export {http,https,ftp}_proxy="http://proxy-server:port"
-    export {HTTP,HTTPS,FTP}_PROXY="http://proxy-server:port"
-}
+#function setproxy() {
+#    export {http,https,ftp}_proxy="http://proxy-server:port"
+#    export {HTTP,HTTPS,FTP}_PROXY="http://proxy-server:port"
+#}
 
 # Unset Proxy
-function unsetproxy() {
-    unset {all,http,https,ftp}_proxy
-    unset {ALL,HTTP,HTTPS,FTP}_PROXY
-}
+#function unsetproxy() {
+#    unset {all,http,https,ftp}_proxy
+#    unset {ALL,HTTP,HTTPS,FTP}_PROXY
+#}
