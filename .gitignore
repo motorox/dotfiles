@@ -1,5 +1,6 @@
+autoload/
 bundle/
 backup/
+plugged/
 plugin/
 undo/
-
