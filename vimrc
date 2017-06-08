@@ -23,7 +23,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'amiel/vim-tmux-navigator'
 Plugin 'rking/ag.vim'
 "" Language specific
-Plugin 'fatih/vim-go'
 Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mustache/vim-mustache-handlebars'
@@ -34,6 +33,11 @@ Plugin 'Buffergator'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+call plug#begin()
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'robertbasic/vim-hugo-helper'
+call plug#end()
 
 " }}}
 
