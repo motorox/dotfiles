@@ -23,6 +23,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'amiel/vim-tmux-navigator'
 Plugin 'rking/ag.vim'
 "" Language specific
+Plugin 'rust-lang/rust.vim'
 Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mustache/vim-mustache-handlebars'
